@@ -24,7 +24,8 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+[Nest](https://github.com/nestjs/nest) API Rest avec TypeORM, Authentification JWT et implémentation de SWAGGER.
+Le fichier SQL fourni procure une db_test mySQL pour pouvoir tester les routes et persister les données.
 
 ## Installation
 
