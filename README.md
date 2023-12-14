@@ -40,7 +40,7 @@ Ajouter dans l'IDE de votre choix et lancer le script.
 ## Création du fichier .env
 
 Créer un fichier .env en y déclarant les variables de la base de données crée précedemment
-DATABASE_URL=
+DATABASE_URL= /n
 DATABASE_NAME=
 DATABASE_TYPE=
 DATABASE_PASSWORD=
