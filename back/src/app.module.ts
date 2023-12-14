@@ -17,11 +17,11 @@ import { UsersModule } from './users/users.module';
         type: configService.get('DATABASE_TYPE') as
           | TypeOrmModuleOptions
           | Promise<TypeOrmModuleOptions>,
-        host: configService.get('DATABASE_URL'),
-        port: 3306,
-        username: 'AlbrizioLuca',
-        password: configService.get('DATABASE_PASSWORD'),
         database: configService.get('DATABASE_NAME'),
+        host: configService.get('DATABASE_URL'),
+        port: configService.get('DATABASE_PORT'),
+        username: configService.get('DATABASE_USERNAME'),
+        password: configService.get('DATABASE_PASSWORD'),
         autoLoadEntities: true,
         synchronize: true,
       }),
