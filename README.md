@@ -66,8 +66,10 @@ $ npm run start:prod
 ## Swagger
 
 L'application tourne par défault sur le port 5000.
-Cliquez sur le lien suivant pour accéder au SWAGGER
+
 
 ```bash 
-http://localhost:5000/api
+Cliquez sur le lien suivant pour accéder au SWAGGER
 ```
+
+http://localhost:5000/api
