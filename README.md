@@ -40,14 +40,17 @@ Ajouter dans l'IDE de votre choix et lancer le script.
 
 ## Création du fichier .env
 
-Créer un fichier .env en y déclarant les variables de la base de données crée précedemment:
+
+Créer un fichier .env en y déclarant les variables de la base de données crée précedemment, de la façon suivante: (les données sont à titre d'exemple):
 
 ```bash
-DATABASE_URL=
-DATABASE_NAME=
-DATABASE_TYPE=
-DATABASE_PASSWORD=
-JWT_SECRET=
+DATABASE_TYPE=mysql
+DATABASE_NAME=db_test
+DATABASE_URL=localhost
+DATABASE_PORT=3306
+DATABASE_USERNAME=root
+DATABASE_PASSWORD=root
+JWT_SECRET=D€F!N!R1M0T2P@$$£
 ```
 
 ## Running the app
