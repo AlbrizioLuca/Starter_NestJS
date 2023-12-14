@@ -26,10 +26,11 @@
 
 [Nest](https://github.com/nestjs/nest) API Rest avec TypeORM, Authentification JWT et implémentation de SWAGGER.
 
-## Installation
+## Installation et mise à jour du Package.json
 
 ```bash
 $ npm install
+$ npm update
 ```
 
 ## Base de données 
@@ -39,13 +40,15 @@ Ajouter dans l'IDE de votre choix et lancer le script.
 
 ## Création du fichier .env
 
-Créer un fichier .env en y déclarant les variables de la base de données crée précedemment
-DATABASE_URL= /n
+Créer un fichier .env en y déclarant les variables de la base de données crée précedemment:
+
+```bash
+DATABASE_URL=
 DATABASE_NAME=
 DATABASE_TYPE=
 DATABASE_PASSWORD=
 JWT_SECRET=
-
+```
 
 ## Running the app
 
@@ -63,4 +66,8 @@ $ npm run start:prod
 ## Swagger
 
 L'application tourne par défault sur le port 5000.
-http://localhost:5000/api pour accéder au SWAGGER
+Cliquez sur le lien suivant pour accéder au SWAGGER
+
+```bash 
+http://localhost:5000/api
+```
